@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Souhila.lio | Portfolio</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a class="nom">Souhila.lio</a>
+    <div class="nav-links" id="navLinks">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>    
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="burger" id="burger">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <h1 id="typed-text"></h1>
+    <p data-aos="fade-up">Aspiring <b>Web & AI Engineer</b> | Student at <b>Setif 1 University</b></p>
+    <a href="#projects" class="cta-btn">🚀 See My Work</a>
+    <canvas id="particles"></canvas>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about" data-aos="fade-right">
+    <h3 class="titre">About Me</h3>
+      <p class="pskill">Who I am :</p>
+    <div class="about-content">
+      <div class="photo-wrapper">
+        <img class="iabout" src="images/img.jpg" alt="Souhila">
+        <div class="halo"></div>
+      </div>
+      <div class="about-text">
+        <p class="pabout">I'm a student in <b>IDTW</b> at FARHAT ABBASS Setif 1 University. I love creating modern apps and learning AI technologies.</p>
+        <button class="bcv"><a href="images/Souhila_CV.pdf" download>Download CV</a></button>
+      </div>
+    </div>
+  </section>
+
+ <!-- Skills -->
+<section id="skills" class="skill" data-aos="zoom-in">
+  <h3 class="titre">My Skills</h3>
+  <p class="pskill">Languages I know:</p>
+
+  <div class="skill-container">
+    <div class="skill-item">
+      <div class="skill-label">
+        <span><i class="fab fa-html5"></i> HTML</span>
+        <span class="percent">90%</span>
+      </div>
+      <div class="progress"><div class="progress-bar" data-progress="90%"></div></div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span><i class="fab fa-css3-alt"></i> CSS</span>
+        <span class="percent">85%</span>
+      </div>
+      <div class="progress"><div class="progress-bar" data-progress="85%"></div></div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span><i class="fab fa-js"></i> JavaScript</span>
+        <span class="percent">60%</span>
+      </div>
+      <div class="progress"><div class="progress-bar" data-progress="60%"></div></div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span><i class="fab fa-python"></i> Python</span>
+        <span class="percent">80%</span>
+      </div>
+      <div class="progress"><div class="progress-bar" data-progress="80%"></div></div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span><i class="fab fa-java"></i> Java</span>
+        <span class="percent">50%</span>
+      </div>
+      <div class="progress"><div class="progress-bar" data-progress="50%"></div></div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span><i class="fab fa-php"></i> PHP</span>
+        <span class="percent">60%</span>
+      </div>
+      <div class="progress"><div class="progress-bar" data-progress="60%"></div></div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span><i class="fas fa-database"></i> SQL</span>
+        <span class="percent">60%</span>
+      </div>
+      <div class="progress"><div class="progress-bar" data-progress="60%"></div></div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-label">
+        <span><i class="fas fa-code"></i> XML</span>
+        <span class="percent">50%</span>
+      </div>
+      <div class="progress"><div class="progress-bar" data-progress="50%"></div></div>
+    </div>
+  </div>
+
+  <p class="pskill">Specialties:</p>
+  <ul class="specialties-list">
+    <li><i class="fas fa-robot"></i> Machine Learning</li>
+    <li><i class="fas fa-brain"></i> Deep Learning</li>
+    <li><i class="fas fa-language"></i> NLP</li>
+    <li><i class="fas fa-cloud"></i> Cloud Computing</li>
+    <li><i class="fas fa-shield-alt"></i> Web Security</li>
+    <li><i class="fas fa-cogs"></i> Distributed Systems</li>
+  </ul>
+</section>
+
+
+  <!-- Projects -->
+  <section id="projects" class="projects" data-aos="fade-up">
+    <h3 class="titre">My Projects</h3>
+      <p class="pskill">What I am building in Web 3D :</p>
+    
+  </section>
+
+  <!-- Contact -->
+<section id="contact" class="contact" data-aos="fade-left">
+  <h3 class="titre">Contact Me</h3>
+  <form id="contactForm" class="contact-form" action="https://formspree.io/f/yourID" method="POST">
+  <input type="text" name="name" placeholder="👤 Your Name" required>
+  <input type="email" name="email" placeholder="📧 Your Email" required>
+  <textarea name="message" rows="5" placeholder="💬 Your Message" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+
+<p id="statusMsg"></p>
+
+  <!-- Réseaux sociaux -->
+  <div class="socials">
+    <a href="https://www.facebook.com/share/15Y8dGYfMZ/" target="_blank" class="facebook"><i class="fab fa-facebook"></i></a>
+    <a href="mailto:souhila.bentaleb2002@gmail.com" class="gmail"><i class="fas fa-envelope"></i></a>
+    <a href="tel:+213555894171" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.linkedin.com/in/souhila-bentaleb-98094434b" target="_blank" class="linkedin" ><i class="fab fa-linkedin"></i></a>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Designed & Developed by <b>Souhila BENTALEB</b> © 2025</p>
+  </footer>
+    
+    <!-- AOS JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+   <!-- Lier js --> 
+    <script src="script.js"></script>
+  
+</body>
+</html>
